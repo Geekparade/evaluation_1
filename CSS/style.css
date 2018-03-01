@@ -1,0 +1,10 @@
+.calculate{
+	width: 320px;
+	height: 200px;
+	border-radius: 10%;
+	border: 3px solid black;
+	box-shadow: 0px 3px 3px black;
+	background-image: url(../Images/imgblack.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;	
+}
