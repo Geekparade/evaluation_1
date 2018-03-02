@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+	<!-- Meta Tag Bootstrap for responsive -->	
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- End Meta Tag  Bootstrap for responsive -->	
+		<title>Monthly Calculator Budget</title>
+	<!-- Bootstrap CSS -->	
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- End Bootstrap CSS -->	
+	<!-- Font Awesome CSS-->
+		<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css">
+	<!-- End Font Awesome CSS-->	
+		<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	</head>
+	
+	<body>
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-3">&nbsp;</div>
+					<div class="col-6">
+						<h1>Monthly Calculator Budget</h1>
+					</div>	
+					<div class="col-3">&nbsp;</div>
+				</div>
+				<div class="row ">
+					<div class="col-3">&nbsp;</div>
+					<div class="col-6">
+						<img src="Images/imgheader.jpg" class="img-fluid" alt="Responsive image">
+					</div>
+					<div class="col-3">&nbsp;</div>
+				</div>
+			</div>
+		</header>
+		
+	<!-- Start Part Expenses -->	
+		<section>	
+			<!-- Part Title Expenses -->
+				<div class="row">
+					<div class="col-3"></div>
+					<div class="col-6">
+						<h2>Dépenses</h2>
+					</div>
+					<div class="col-3"></div>	
+				</div>					
+			<!-- End Part Title Expenses -->
+			<hr>
+			<!-- Start Part Fixed Expenses -->	
+				<div class="row">					 
+					<div class="col-6">
+						<h3>Dépenses Fixes</h3>
+				    </div>	
+					<div class="col-6">
+						<h3>Montants</h3>
+					</div>
+				</div>											
+				<form class="container">
+				  <div class="row">
+				    <div class="col">
+				    	<label for="text" class="control-label">Loyer et Charges*</label>
+				    </div>  
+			        <div class="col">
+			        	<input type="number" class="form-control expense" placeholder="0" required>
+			      	</div>  
+				  </div>
+				  <div class="row">
+				    <div class="col">
+				    	<label for="text" class="control-label">Prêts et Crédits</label>
+				    </div>  
+			        <div class="col">
+			        	<input type="number" class="form-control expense" placeholder="0">
+			      	</div>  
+				  </div>
+				  <div class="row">
+				    <div class="col">
+				    	<label for="text" class="control-label">Eau, Gaz, Électricité*</label>
+				    </div>  
+			        <div class="col">
+			        	<input type="number" class="form-control expense" placeholder="0" required>
+			      	</div>  
+				  </div>
+				  <div class="row">
+				    <div class="col">
+				    	<label for="text" class="control-label">Téléphone et Internet*</label>
+				    </div>  
+			        <div class="col">
+			        	<input type="number" class="form-control expense" placeholder="0" required>
+			      	</div>  
+				  </div>
+				  <div class="row">
+				    <div class="col">
+				    	<label for="text" class="control-label">Assurance Habitation</label>
+				    </div>  
+			        <div class="col">
+			        	<input type="number" class="form-control expense" placeholder="0">
+			      	</div>  
+				  </div>
+				  <div class="row">
+				    <div class="col">
+				    	<label for="text" class="control-label">Assurance(s) Véhicule(s)</label>
+				    </div>  
+			        <div class="col">
+			        	<input type="number" class="form-control expense" placeholder="0">
+			      	</div>  
+				  </div>
+				  <div class="row">
+				    <div class="col">
+				    	<label for="text" class="control-label">Mutuelle Santé</label>
+				    </div>  
+			        <div class="col">
+			        	<input type="number" class="form-control expense" placeholder="0">
+			      	</div>  
+				  </div>
+				  <div class="row">
+				    <div class="col">
+				    	<label for="text" class="control-label">Frais de Garde</label>
+				    </div>  
+			        <div class="col">
+			        	<input type="number" class="form-control expense" placeholder="0">
+			      	</div>  
+				  </div>
+				  <div class="row">
+				    <div class="col">
+				    	<label for="text" class="control-label">Impôt sur le Revenu</label>
+				    </div>  
+			        <div class="col">
+			        	<input type="number" class="form-control expense" placeholder="0">
+			      	</div>  
+				  </div>
+				  <div class="row">
+				    <div class="col">
+				    	<label for="text" class="control-label">Impôts Locaux</label>
+				    </div>  
+			        <div class="col">
+			        	<input type="number" class="form-control expense" placeholder="0">
+			      	</div>  
+				  </div>
+				  <div class="container">
+					  <div class="row">
+					  	<div class="col"></div>
+						  <button type="button" class="btn btn-success col">Ajout d'un champ</button>
+						<div class="col"></div>  
+					  </div>
+					  <div class="row">
+					  	<div class="col"></div>
+						  <input type="reset" class="btn btn-danger col">
+						<div class="col"></div>  
+					  </div>
+				  </div>  		
+				</form>
+				<div class="container mt-4">
+					<div class="row">
+					 	<div class="col">
+							<p>Les champs indiqués par une * sont obligatoires</p>
+					  	</div>	  
+					</div>
+				</div>	
+			<!-- End Part Fixed Expenses	 -->
+			<hr>
+			<!-- Start Part Current Expenses -->
+				<div class="row">					 
+					<div class="col-6">
+						<h3>Dépenses Courrantes</h3>
+				    </div>	
+					<div class="col-6">
+						<h3>Montants</h3>
+					</div>
+				</div>
+				<form class="container">
+				  <div class="row">
+				    <div class="col">
+				    	<label for="text" class="control-label">Course</label>
+				    </div>  
+			        <div class="col">
+			        	<input type="number" class="form-control expense" placeholder="0">
+			      	</div>  
+				  </div>
+				  <div class="row">
+				    <div class="col">
+				    	<label for="text" class="control-label">Essence</label>
+				    </div>  
+			        <div class="col">
+			        	<input type="number" class="form-control expense" placeholder="0">
+			      	</div>  
+				  </div>
+				  <div class="row">
+				    <div class="col">
+				    	<label for="text" class="control-label">Activité(s) Sportive(s)</label>
+				    </div>  
+			        <div class="col">
+			        	<input type="number" class="form-control expense" placeholder="0">
+			      	</div>  
+				  </div>
+				  <div class="row">
+				    <div class="col">
+				    	<label for="text" class="control-label">Activité(s) Culturelle(s)</label>
+				    </div>  
+			        <div class="col">
+			        	<input type="number" class="form-control expense" placeholder="0">
+			      	</div>  
+				  </div>
+				  <div class="container">
+					  <div class="row">
+					  	<div class="col"></div>
+						  <button type="button" class="btn btn-success col">Ajout d'un champ</button>
+						<div class="col"></div>  
+					  </div>
+					  <div class="row">
+					  	<div class="col"></div>
+						  <input type="reset" class="btn btn-danger col">
+						<div class="col"></div>  
+					  </div>
+				  </div>  		
+				</form>							
+			<!-- End Part Current Expenses -->	
+			<hr>
+			<!-- Start Part Casual Expenses -->
+				<div class="row">					 
+					<div class="col-6">
+						<h3>Dépense Occasionnelles</h3>
+				    </div>	
+					<div class="col-6">
+						<h3>Montants</h3>
+					</div>
+				</div>
+				<form class="container">
+				  <div class="row">
+				    <div class="col">
+				    	<label for="text" class="control-label">Sorties</label>
+				    </div>  
+			        <div class="col">
+			        	<input type="number" class="form-control expense" placeholder="0">
+			      	</div>  
+				  </div>
+				  <div class="container">
+					  <div class="row">
+					  	<div class="col"></div>
+						  <button type="button" class="btn btn-success col">Ajout d'un champ</button>
+						<div class="col"></div>  
+					  </div>
+					  <div class="row">
+					  	<div class="col"></div>
+						  <input type="reset" class="btn btn-danger col">
+						<div class="col"></div>  
+					  </div>
+				   </div>  		
+				</form>
+			<!-- End Part Casual Expenses -->
+			<hr>
+			<!-- Start Part Others Expenses-->
+				<div class="row">					 
+					<div class="col-6">
+						<h3>Dépenses Autres</h3>
+				    </div>	
+					<div class="col-6">
+						<h3>Montants</h3>
+					</div>
+				</div>
+				<form class="container">
+				  <div class="row">
+				    <div class="col">
+				    	<label for="text" class="control-label">Autres</label>
+				    </div>  
+			        <div class="col">
+			        	<input type="number" class="form-control expense" placeholder="0">
+			      	</div>  
+				  </div>
+				  <div class="container">
+					  <div class="row">
+					  	<div class="col"></div>
+						  <button type="button" class="btn btn-success col">Ajout d'un champ</button>
+						<div class="col"></div>  
+					  </div>
+					  <div class="row">
+					  	<div class="col"></div>
+						  <input type="reset" class="btn btn-danger col">
+						<div class="col"></div>  
+					  </div>
+				  </div>  		
+				</form>							
+			<!-- End Part of Others Expenses -->														
+		</section>
+	<!-- End Part Expenses -->
+
+	<!-- Start Part Incomes -->
+		<section>		
+		<!-- Part Title Incomes -->	
+			<div class="row">
+				<div class="col-3"></div>
+				<div class="col-6">
+					<h2>Revenus</h2>
+				</div>
+				<div class="col-3"></div>	
+			</div>	
+			<hr>			
+		<!-- End Part Title Incomes -->	
+			<div class="row">					 
+				<div class="col-6">
+					<h3>Revenus</h3>
+			    </div>	
+				<div class="col-6">
+					<h3>Montants</h3>
+				</div>
+			</div>		
+			<form class="container">
+			  <div class="row">
+			    <div class="col">
+			    	<label for="text" class="control-label">Salaire(s)</label>
+			    </div>  
+		        <div class="col">
+		        	<input type="number" class="form-control income" placeholder="0">
+		      	</div>  
+			  </div>
+			  <div class="row">
+			    <div class="col">
+			    	<label for="text" class="control-label">Aides Sociales</label>
+			    </div>  
+		        <div class="col">
+		        	<input type="number" class="form-control income" placeholder="0">
+		      	</div>  
+			  </div>
+			  <div class="row">
+			    <div class="col">
+			    	<label for="text" class="control-label">Rentes</label>
+			    </div>  
+		        <div class="col">
+		        	<input type="number" class="form-control income" placeholder="0">
+		      	</div>  
+			  </div>
+			  <div class="row">
+			    <div class="col">
+			    	<label for="text" class="control-label">Autres</label>
+			    </div>  
+		        <div class="col">
+		        	<input type="number" class="form-control income" placeholder="0">
+		      	</div>  
+			  </div>
+		      <div class="container">
+				  <div class="row">
+				  	<div class="col"></div>
+					  <button type="button" class="btn btn-success col">Ajout d'un champ</button>
+					<div class="col"></div>  
+				  </div>
+				  <div class="row">
+				  	<div class="col"></div>
+					  <input type="reset" class="btn btn-danger col">
+					<div class="col"></div>  
+				  </div>
+			  </div>  		
+			</form>					
+		</section>
+	<!-- End Part Incomes -->
+
+	<!-- Start Part Saving -->
+		<section>
+		<!-- Part Title Saving -->	
+			<div class="row">
+				<div class="col-3"></div>
+				<div class="col-6">
+					<h2>Épargnes</h2>
+				</div>
+				<div class="col-3"></div>	
+			</div>				
+			<hr>				
+		<!-- End Part Title Saving -->
+			<div class="row">
+				<div class="col-3"></div>
+				<div class="col-6">
+					<h3>Montants</h3>
+				</div>
+				<div class="col-3"></div>	
+			</div>	
+			<form class="container">
+				<div class="row">
+				  	<div class="col"></div>  
+					<div class="col ml-2">
+						<input  class="income" type="number" placeholder="0">	
+					</div>
+				   	<div class="col"></div>						
+				</div>
+				<div class="container">
+				  <div class="row">
+				  	<div class="col"></div>
+					  <button type="button" class="btn btn-success col">Ajout d'un champ</button>
+					<div class="col"></div>  
+				  </div>
+				  <div class="row">
+				  	<div class="col"></div>
+					  <input type="reset" class="btn btn-danger col">
+					<div class="col"></div>  
+				  </div>
+			    </div>  		
+			</form>			
+		</section>
+	<!-- End Part Saving -->
+	
+	<!-- Start Part Calculate -->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col"></div>
+					<div class="col">
+						<button type="button" class="btn btn-success calculate">Calculer</button>
+					</div>
+					<div class="col"></div>
+				</div>
+				  <div class="separatorInvisible">&nbsp;</div>
+				<div class="row">
+					<div class="col"></div>
+					<div class="col">
+						<input class="result" type="number" placeholder="0">
+					</div>
+					<div class="col"></div>
+				</div>
+			</div>	
+		</footer>	
+	<!-- End Part Calculate -->
+	<!-- jQuery, Popper.js, Bootstrap JS -->	
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<!--End jQuery, Popper.js, Bootstrap JS -->
+
+		<script type="text/javascript" src="JS/app.js"></script>
+	
+	</body>
+</html
