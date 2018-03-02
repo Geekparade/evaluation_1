@@ -62,7 +62,7 @@
 				    	<label for="text" class="control-label">Loyer et Charges*</label>
 				    </div>  
 			        <div class="col">
-			        	<input type="number" class="form-control" placeholder="0">
+			        	<input type="number" class="form-control expense" placeholder="0" required>
 			      	</div>  
 				  </div>
 				  <div class="row">
@@ -70,7 +70,7 @@
 				    	<label for="text" class="control-label">Prêts et Crédits</label>
 				    </div>  
 			        <div class="col">
-			        	<input type="number" class="form-control" placeholder="0">
+			        	<input type="number" class="form-control expense" placeholder="0">
 			      	</div>  
 				  </div>
 				  <div class="row">
@@ -78,7 +78,7 @@
 				    	<label for="text" class="control-label">Eau, Gaz, Électricité*</label>
 				    </div>  
 			        <div class="col">
-			        	<input type="number" class="form-control" placeholder="0">
+			        	<input type="number" class="form-control expense" placeholder="0" required>
 			      	</div>  
 				  </div>
 				  <div class="row">
@@ -86,7 +86,7 @@
 				    	<label for="text" class="control-label">Téléphone et Internet*</label>
 				    </div>  
 			        <div class="col">
-			        	<input type="number" class="form-control" placeholder="0">
+			        	<input type="number" class="form-control expense" placeholder="0" required>
 			      	</div>  
 				  </div>
 				  <div class="row">
@@ -94,7 +94,7 @@
 				    	<label for="text" class="control-label">Assurance Habitation</label>
 				    </div>  
 			        <div class="col">
-			        	<input type="number" class="form-control" placeholder="0">
+			        	<input type="number" class="form-control expense" placeholder="0">
 			      	</div>  
 				  </div>
 				  <div class="row">
@@ -102,7 +102,7 @@
 				    	<label for="text" class="control-label">Assurance(s) Véhicule(s)</label>
 				    </div>  
 			        <div class="col">
-			        	<input type="number" class="form-control" placeholder="0">
+			        	<input type="number" class="form-control expense" placeholder="0">
 			      	</div>  
 				  </div>
 				  <div class="row">
@@ -110,7 +110,7 @@
 				    	<label for="text" class="control-label">Mutuelle Santé</label>
 				    </div>  
 			        <div class="col">
-			        	<input type="number" class="form-control" placeholder="0">
+			        	<input type="number" class="form-control expense" placeholder="0">
 			      	</div>  
 				  </div>
 				  <div class="row">
@@ -118,7 +118,7 @@
 				    	<label for="text" class="control-label">Frais de Garde</label>
 				    </div>  
 			        <div class="col">
-			        	<input type="number" class="form-control" placeholder="0">
+			        	<input type="number" class="form-control expense" placeholder="0">
 			      	</div>  
 				  </div>
 				  <div class="row">
@@ -126,7 +126,7 @@
 				    	<label for="text" class="control-label">Impôt sur le Revenu</label>
 				    </div>  
 			        <div class="col">
-			        	<input type="number" class="form-control" placeholder="0">
+			        	<input type="number" class="form-control expense" placeholder="0">
 			      	</div>  
 				  </div>
 				  <div class="row">
@@ -134,14 +134,29 @@
 				    	<label for="text" class="control-label">Impôts Locaux</label>
 				    </div>  
 			        <div class="col">
-			        	<input type="number" class="form-control" placeholder="0">
+			        	<input type="number" class="form-control expense" placeholder="0">
 			      	</div>  
 				  </div>
-				  <div class="btn">
-					<button type="button" class="btn btn-success">Ajout d'un champ</button>
-					<input type="reset" class="btn btn-danger">
-				 </div>	
+				  <div class="container">
+					  <div class="row">
+					  	<div class="col"></div>
+						  <button type="button" class="btn btn-success col">Ajout d'un champ</button>
+						<div class="col"></div>  
+					  </div>
+					  <div class="row">
+					  	<div class="col"></div>
+						  <input type="reset" class="btn btn-danger col">
+						<div class="col"></div>  
+					  </div>
+				  </div>  		
 				</form>
+				<div class="container mt-4">
+					<div class="row">
+					 	<div class="col">
+							<p>Les champs indiqués par une * sont obligatoires</p>
+					  	</div>	  
+					</div>
+				</div>	
 			<!-- End Part Fixed Expenses	 -->
 			<hr>
 			<!-- Start Part Current Expenses -->
@@ -159,7 +174,7 @@
 				    	<label for="text" class="control-label">Course</label>
 				    </div>  
 			        <div class="col">
-			        	<input type="number" class="form-control" placeholder="0">
+			        	<input type="number" class="form-control expense" placeholder="0">
 			      	</div>  
 				  </div>
 				  <div class="row">
@@ -167,7 +182,7 @@
 				    	<label for="text" class="control-label">Essence</label>
 				    </div>  
 			        <div class="col">
-			        	<input type="number" class="form-control" placeholder="0">
+			        	<input type="number" class="form-control expense" placeholder="0">
 			      	</div>  
 				  </div>
 				  <div class="row">
@@ -175,7 +190,7 @@
 				    	<label for="text" class="control-label">Activité(s) Sportive(s)</label>
 				    </div>  
 			        <div class="col">
-			        	<input type="number" class="form-control" placeholder="0">
+			        	<input type="number" class="form-control expense" placeholder="0">
 			      	</div>  
 				  </div>
 				  <div class="row">
@@ -183,13 +198,21 @@
 				    	<label for="text" class="control-label">Activité(s) Culturelle(s)</label>
 				    </div>  
 			        <div class="col">
-			        	<input type="number" class="form-control" placeholder="0">
+			        	<input type="number" class="form-control expense" placeholder="0">
 			      	</div>  
 				  </div>
-				  <div class="btn">
-					<button type="button" class="btn btn-success">Ajout d'un champ</button>
-					<input type="reset" class="btn btn-danger">
-				  </div>	
+				  <div class="container">
+					  <div class="row">
+					  	<div class="col"></div>
+						  <button type="button" class="btn btn-success col">Ajout d'un champ</button>
+						<div class="col"></div>  
+					  </div>
+					  <div class="row">
+					  	<div class="col"></div>
+						  <input type="reset" class="btn btn-danger col">
+						<div class="col"></div>  
+					  </div>
+				  </div>  		
 				</form>							
 			<!-- End Part Current Expenses -->	
 			<hr>
@@ -208,13 +231,21 @@
 				    	<label for="text" class="control-label">Sorties</label>
 				    </div>  
 			        <div class="col">
-			        	<input type="number" class="form-control" placeholder="0">
+			        	<input type="number" class="form-control expense" placeholder="0">
 			      	</div>  
 				  </div>
-				  <div class="btn">
-					<button type="button" class="btn btn-success">Ajout d'un champ</button>
-					<input type="reset" class="btn btn-danger">
-				  </div>	
+				  <div class="container">
+					  <div class="row">
+					  	<div class="col"></div>
+						  <button type="button" class="btn btn-success col">Ajout d'un champ</button>
+						<div class="col"></div>  
+					  </div>
+					  <div class="row">
+					  	<div class="col"></div>
+						  <input type="reset" class="btn btn-danger col">
+						<div class="col"></div>  
+					  </div>
+				   </div>  		
 				</form>
 			<!-- End Part Casual Expenses -->
 			<hr>
@@ -233,13 +264,21 @@
 				    	<label for="text" class="control-label">Autres</label>
 				    </div>  
 			        <div class="col">
-			        	<input type="number" class="form-control" placeholder="0">
+			        	<input type="number" class="form-control expense" placeholder="0">
 			      	</div>  
 				  </div>
-				  <div class="btn">
-					<button type="button" class="btn btn-success">Ajout d'un champ</button>
-					<input type="reset" class="btn btn-danger">
-				  </div>	
+				  <div class="container">
+					  <div class="row">
+					  	<div class="col"></div>
+						  <button type="button" class="btn btn-success col">Ajout d'un champ</button>
+						<div class="col"></div>  
+					  </div>
+					  <div class="row">
+					  	<div class="col"></div>
+						  <input type="reset" class="btn btn-danger col">
+						<div class="col"></div>  
+					  </div>
+				  </div>  		
 				</form>							
 			<!-- End Part of Others Expenses -->														
 		</section>
@@ -271,7 +310,7 @@
 			    	<label for="text" class="control-label">Salaire(s)</label>
 			    </div>  
 		        <div class="col">
-		        	<input type="number" class="form-control" placeholder="0">
+		        	<input type="number" class="form-control income" placeholder="0">
 		      	</div>  
 			  </div>
 			  <div class="row">
@@ -279,7 +318,7 @@
 			    	<label for="text" class="control-label">Aides Sociales</label>
 			    </div>  
 		        <div class="col">
-		        	<input type="number" class="form-control" placeholder="0">
+		        	<input type="number" class="form-control income" placeholder="0">
 		      	</div>  
 			  </div>
 			  <div class="row">
@@ -287,7 +326,7 @@
 			    	<label for="text" class="control-label">Rentes</label>
 			    </div>  
 		        <div class="col">
-		        	<input type="number" class="form-control" placeholder="0">
+		        	<input type="number" class="form-control income" placeholder="0">
 		      	</div>  
 			  </div>
 			  <div class="row">
@@ -295,13 +334,21 @@
 			    	<label for="text" class="control-label">Autres</label>
 			    </div>  
 		        <div class="col">
-		        	<input type="number" class="form-control" placeholder="0">
+		        	<input type="number" class="form-control income" placeholder="0">
 		      	</div>  
 			  </div>
-			  <div class="btn">
-				<button type="button" class="btn btn-success">Ajout d'un champ</button>
-				<input type="reset" class="btn btn-danger">
-			  </div>	
+		      <div class="container">
+				  <div class="row">
+				  	<div class="col"></div>
+					  <button type="button" class="btn btn-success col">Ajout d'un champ</button>
+					<div class="col"></div>  
+				  </div>
+				  <div class="row">
+				  	<div class="col"></div>
+					  <input type="reset" class="btn btn-danger col">
+					<div class="col"></div>  
+				  </div>
+			  </div>  		
 			</form>					
 		</section>
 	<!-- End Part Incomes -->
@@ -328,40 +375,46 @@
 			<form class="container">
 				<div class="row">
 				  	<div class="col"></div>  
-					<div class="col">
-						<input id="income" type="number" placeholder="0">	
+					<div class="col ml-2">
+						<input  class="income" type="number" placeholder="0">	
 					</div>
 				   	<div class="col"></div>						
 				</div>
-				<div class="row btn">
-					<button type="button" class="btn btn-success">Ajout d'un champ</button>
-					<input type="reset" class="btn btn-danger">
-				</div>		
+				<div class="container">
+				  <div class="row">
+				  	<div class="col"></div>
+					  <button type="button" class="btn btn-success col">Ajout d'un champ</button>
+					<div class="col"></div>  
+				  </div>
+				  <div class="row">
+				  	<div class="col"></div>
+					  <input type="reset" class="btn btn-danger col">
+					<div class="col"></div>  
+				  </div>
+			    </div>  		
 			</form>			
 		</section>
 	<!-- End Part Saving -->
 	
 	<!-- Start Part Calculate -->
 		<footer>
-			<div class="container"> 
-				<div class="row">					
+			<div class="container">
+				<div class="row">
 					<div class="col"></div>
 					<div class="col">
-						<button type="button" class="btn btn-success">Calculer</button>
+						<button type="button" class="btn btn-success calculate">Calculer</button>
 					</div>
-					<div class="col"></div>            
-		        </div>    
-			</div>
-			<div class="separatorInvisible">&nbsp;</div>
-			<div class="container"> 
-				<div class="row">	
-					<div class="col-3"></div>
-					<div class="col-6">
+					<div class="col"></div>
+				</div>
+				  <div class="separatorInvisible">&nbsp;</div>
+				<div class="row">
+					<div class="col"></div>
+					<div class="col">
 						<input class="result" type="number" placeholder="0">
 					</div>
-					<div class="col-3"></div>            
-		        </div>    
-			</div>
+					<div class="col"></div>
+				</div>
+			</div>	
 		</footer>	
 	<!-- End Part Calculate -->
 	<!-- jQuery, Popper.js, Bootstrap JS -->	

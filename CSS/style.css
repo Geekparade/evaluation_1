@@ -25,10 +25,30 @@ label {
 	margin-left: 30%;
 }
 
+input {
+	text-align: center;
+}
+
+p {
+	color: red;
+}
+
 hr {
 	color: #000000;
 	height:10px;
 	width: 80%;
+}
+
+.expense::-webkit-input-placeholder{
+	color: red;
+}
+
+.income::-webkit-input-placeholder {
+	color: green;
+}
+
+.result::-webkit-input-placeholder{
+	color: green;
 }
 
 .btn {
@@ -39,7 +59,10 @@ hr {
 	margin-bottom: 2%;
 }
 
-.result {
-	margin-left: 10%;
+.calculate, .result {
+	display: inline-flex;
+	justify-content: center;
+	flex-flow: column;
 }
+
 
